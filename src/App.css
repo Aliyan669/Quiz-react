@@ -1,38 +1,67 @@
+
 .App {
   text-align: center;
-}
+  transform: translate(0% ,30%);
+  background-color: white;
+  width: 680px;
+  border-radius: 10px;
+  height: 55vh;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.result{
+ padding-top: 90px;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: rgb(243, 183, 73);
+  font-family: Forte;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+  
+}
+.chip{
+  margin: -10px 0;
+}
+.chip:hover{
+
+   color: black;
+   font-weight: bold;
+}
+.btn{
+  background-color:  rgb(243, 183, 73) ;
   color: white;
+  font-family: Forte;
+  width: 200px;
+  font-size:22px;
+  border-radius: 10px;
+  height: 7vh;
+  border: none;
+  margin: 70px;
+}
+.quiz{
+  font-size: 90px;
+  font-family: Forte;
+  letter-spacing: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color:  rgb(243, 183, 73) ;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.timer{
+  margin-left: 130px;
+  font-family: Forte;
+       
+  font-size: 26px;
+}
+.timer span {
+  margin: 0 5px;
+  /* margin-top: -20px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
